@@ -14,4 +14,4 @@ def run_mip_flooding(color_path: str, mask_path: str, output_path: str, img_form
     Example:
         run_mip_flooding('input_color.png', 'input_mask.png', 'output_texture.png', ImageFormat.PNG)
     """
-    mip_flooding.RunMipFlooding(color_path, mask_path, output_path, img_format)
+    mip_flooding.RunMipFlooding(color_path, mask_path, output_path, img_format, False)
