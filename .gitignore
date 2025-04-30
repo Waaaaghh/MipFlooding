@@ -65,3 +65,5 @@ _*
 tests
 obj
 *.pdb
+
+*.dll
